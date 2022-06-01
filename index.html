@@ -1,0 +1,38 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <title>Color Scheme Generator</title>
+    </head>
+    <body>
+        <header>
+            <form id="form-EL" class="header-form">
+                <input id="seedcolor" type="color" value="#F55A5A" onclick="" class="input-color">
+                <select id="select-EL" class="selectscheme">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome (dark)</option>
+                    <option value="monochrome-light">Monochrome (light)</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+                <button id="scheme" class="getscheme">Get color scheme</button>
+            </form>
+
+            
+        </header>
+        
+        
+        <section class="content"> 
+            <div id="color-bar" ></div>
+            <div id="color-hex" ></div>
+        </section>
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
